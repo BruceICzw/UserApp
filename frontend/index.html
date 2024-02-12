@@ -3,7 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <title>User Registration and Login</title>
   </head>
-  <body></body>
+  <body>
+    <section>
+      <h1>User Registration</h1>
+      <form id="registerForm">
+        <div>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="text" name="password" id="password" required />
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+    <section>
+      <h1>User Login</h1>
+      <form id="loginForm">
+        <div>
+          <label for="loginUsername">Username</label>
+          <input type="text" id="loginUsername" name="loginUsername" required />
+        </div>
+        <div>
+          <label for="loginPassword">Password</label>
+          <input type="text" name="loginPassword" id="loginPassword" required />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+    <script src="./scripts/main.js"></script>
+  </body>
 </html>
